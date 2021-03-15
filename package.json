@@ -16,6 +16,7 @@
     "@tensorflow/tfjs": "^2.7.0",
     "nuxt": "2.14.7",
     "nuxt-property-decorator": "^2.8.8",
+    "sass": "^1.32.8",
     "vuex": "^3.6.0"
   },
   "devDependencies": {
