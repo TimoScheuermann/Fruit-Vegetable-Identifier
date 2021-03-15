@@ -14,7 +14,11 @@ export default {
       }
     ]
   },
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/pwa'],
+  buildModules: [
+    '@nuxtjs/style-resources',
+    '@nuxt/typescript-build',
+    '@nuxtjs/pwa'
+  ],
   modules: ['@nuxtjs/style-resources'],
   styleResources: {
     scss: ['~/assets/scss/variables.scss', '~/assets/scss/mixins.scss']
