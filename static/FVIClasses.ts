@@ -19,7 +19,7 @@ const APPLE: FVIClass = {
 }
 
 const BROCCOLI: FVIClass = {
-  title: 'Brokoli',
+  title: 'Brokkoli',
   thumbnail:
     'https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?w=1920&q=20',
   information: [
