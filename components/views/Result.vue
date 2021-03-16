@@ -42,7 +42,7 @@ import FVIClasses from '~/static/FVIClasses'
 export default class Result extends Vue {
   public nutrition = [
     { key: 'calories', title: 'Kalorien' },
-    { key: 'carbs', title: 'Carbs' },
+    { key: 'carbs', title: 'Kohlenhydrate' },
     { key: 'fats', title: 'Fette' },
     { key: 'proteins', title: 'Proteine' },
     { key: 'sugars', title: 'Zucker' }
