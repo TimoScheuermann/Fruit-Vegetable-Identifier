@@ -9,12 +9,12 @@ const APPLE: FVIClass = {
     'Und das ist Information #2',
     'und die #3 gibts natürlich auch noch'
   ],
-  nutrition: {
-    calories: '500 cal',
-    carbs: 'xy z',
-    fats: '0 g',
-    proteins: '14 g',
-    sugars: '1000 kg'
+ nutrition: {
+    calories: '54 kcal',
+    carbs: '14.4 g',
+    fats: '0.1 g',
+    proteins: '0.3 g',
+    sugars: '10.3 g'
   }
 }
 
@@ -45,12 +45,12 @@ const GRAPE: FVIClass = {
     'Und das ist Information #2',
     'und die #3 gibts natürlich auch noch'
   ],
-  nutrition: {
-    calories: '500 cal',
-    carbs: 'xy z',
-    fats: '0 g',
-    proteins: '14 g',
-    sugars: '1000 kg'
+ nutrition: {
+    calories: '68 kcal',
+    carbs: '15.6 g',
+    fats: '0.3 g',
+    proteins: '0.7 g',
+    sugars: '15.4 g'
   }
 }
 
@@ -64,11 +64,11 @@ const LEMON: FVIClass = {
     'und die #3 gibts natürlich auch noch'
   ],
   nutrition: {
-    calories: '500 cal',
-    carbs: 'xy z',
-    fats: '0 g',
-    proteins: '14 g',
-    sugars: '1000 kg'
+    calories: '39 kcal',
+    carbs: '3.2 g',
+    fats: '0.6 g',
+    proteins: '0.7 g',
+    sugars: '3 g'
   }
 }
 
@@ -81,12 +81,12 @@ const MANGO: FVIClass = {
     'Und das ist Information #2',
     'und die #3 gibts natürlich auch noch'
   ],
-  nutrition: {
-    calories: '500 cal',
-    carbs: 'xy z',
-    fats: '0 g',
-    proteins: '14 g',
-    sugars: '1000 kg'
+ nutrition: {
+    calories: '62 kcal',
+    carbs: '12.5 g',
+    fats: '0.4 g',
+    proteins: '0.6 g',
+    sugars: '12.4 g'
   }
 }
 
@@ -100,11 +100,11 @@ const ORANGE: FVIClass = {
     'und die #3 gibts natürlich auch noch'
   ],
   nutrition: {
-    calories: '500 cal',
-    carbs: 'xy z',
-    fats: '0 g',
-    proteins: '14 g',
-    sugars: '1000 kg'
+    calories: '50 kcal',
+    carbs: '8.3 g',
+    sugars: '8.3 g',
+    fats: '0.4 g',
+    proteins: '1 g'
   }
 }
 
@@ -118,11 +118,11 @@ const STRAWBERRY: FVIClass = {
     'und die #3 gibts natürlich auch noch'
   ],
   nutrition: {
-    calories: '500 cal',
-    carbs: 'xy z',
-    fats: '0 g',
-    proteins: '14 g',
-    sugars: '1000 kg'
+    calories: '32 kcal',
+    carbs: '5.4 g',
+    fats: '0.4 g',
+    proteins: '0.8 g',
+    sugars: '5.3 g'
   }
 }
 
