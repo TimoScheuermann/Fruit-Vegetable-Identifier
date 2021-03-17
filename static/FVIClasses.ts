@@ -444,6 +444,8 @@ const STRAWBERRY: FVIClass = {
   }
 }
 
+// Gemüse & Restobst
+
 const BROCCOLI: FVIClass = {
   title: 'Brokoli',
   thumbnail:
@@ -462,7 +464,476 @@ const BROCCOLI: FVIClass = {
   }
 }
 
+const BEETROOT: FVIClass = {
+  title: 'Rote Bete',
+  thumbnail:
+  'https://images.unsplash.com/photo-1580909784825-a32dca9ceb7a?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '42 kcal',
+    carbs: '8.4 g',
+    fats: '0.1 g',
+    proteins: '1.5 g',
+    sugars: '8.4 g'
+  }
+}
+
+const BELLPEPPER: FVIClass = {
+  title: 'Paprika',
+  thumbnail:
+  'https://images.unsplash.com/photo-1606989003252-ce8bda4c5adf?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+ nutrition: {
+    calories: '37 kcal',
+    carbs: '6.4 g',
+    fats: '0.5 g',
+    proteins: '1.3 g',
+    sugars: '6.4 g'
+  }
+}
+
+const BLUEBERRY: FVIClass = {
+  title: 'Heidelbeeren',
+  thumbnail:
+  'https://images.unsplash.com/photo-1498557850523-fd3d118b962e?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '42 kcal',
+    carbs: '7.4 g',
+    fats: '0.6 g',
+    proteins: '0.6 g',
+    sugars: '6 g'
+  }
+}
+
+const BROGLE: FVIClass = {
+  title: 'Brokkoli',
+  thumbnail:
+  'https://images.unsplash.com/photo-1553175005-a1129d5c188c?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '34 kcal',
+    carbs: '2.7 g',
+    fats: '0.2 g',
+    proteins: '3.8 g',
+    sugars: '2.7 g'
+  }
+}
+
+const CACTUS_FRUIT: FVIClass = {
+  title: 'Kaktusfeige',
+  thumbnail:
+  'https://cdn.pixabay.com/photo/2020/06/19/07/13/prickly-pear-5315956_960_720.jpg?w=1920&q=20',
+  information: [
+    'Really?'
+  ],
+  nutrition: {
+    calories: '46 kcal',
+    carbs: '7.1 g',
+    fats: '0.4 g',
+    proteins: '1 g',
+    sugars: '7.1 g'
+  }
+}
+
+const CARAMBOLA: FVIClass = {
+  title: 'Karambola (Sternfrucht)',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2016/07/22/09/59/fruit-1534493_960_720.jpg?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+   nutrition: {
+    calories: '31 kcal',
+    carbs: '6.7 g',
+    fats: '0.3 g',
+    proteins: '1 g',
+    sugars: 'k.A.'
+  }
+}
+
+const CAULIFLOWER: FVIClass = {
+  title: 'Blumenkohl',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1604573291048-7e10e1db605b?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '28 kcal',
+    carbs: '2.3 g',
+    fats: '0.3 g',
+    proteins: '1.9 g',
+    sugars: '1.7 g'
+  }
+}
+
+const CHESTNUT: FVIClass = {
+  title: 'Esskastanien (Maronen)',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1510950109928-f3aac6afbb03?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+   nutrition: {
+    calories: '175 kcal',
+    carbs: '40 g',
+    fats: '0.4 g',
+    proteins: '3 g',
+    sugars: '8 g'
+  }
+}
+
+const CORN: FVIClass = {
+  title: 'Mais',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1552318744-8cdc310db580?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '109 kcal',
+    carbs: '15.7 g',
+    fats: '1.2 g',
+    proteins: '3.3 g',
+    sugars: '3.2 g'
+  }
+}
+
+const CUCUMBER: FVIClass = {
+  title: 'Gurke',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1552318744-8cdc310db580?w=1920&q=20',
+  information: [
+    'Nicht rumgurken. Trainieren!'
+  ],
+  nutrition: {
+    calories: '16 kcal',
+    carbs: '1.8 g',
+    fats: '0.2 g',
+    proteins: '0.6 g',
+    sugars: '1.4 g'
+  }
+}
+
+const EGGPLANT: FVIClass = {
+  title: 'Aubergine',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1601477572224-cb15a76f30f4?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '25 kcal',
+    carbs: '2.6 g',
+    fats: '0.2 g',
+    proteins: '1.3 g',
+    sugars: 'k.A.'
+  }
+}
+
+const FIG: FVIClass = {
+  title: 'Feige',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1601379760607-78be3d4ff432?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+   nutrition: {
+    calories: '63 kcal',
+    carbs: '12.9 g',
+    fats: '0.5 g',
+    proteins: '1.3 g',
+    sugars: '12.9 g'
+  }
+}
+
+const GINGER: FVIClass = {
+  title: 'Ingwer',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1615484478243-c94e896edbae?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '70 kcal',
+    carbs: '13 g',
+    fats: '0.8 g',
+    proteins: '1.6 g',
+    sugars: '2 g'
+  }
+}
+
+const KOHLRABI: FVIClass = {
+  title: 'Kohlrabi',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1554107716-ec43584a2e9a?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '28 kcal',
+    carbs: '3.7 g',
+    fats: '0.2 g',
+    proteins: '1.9 g',
+    sugars: '2.6 g'
+  }
+}
+
+const MULBERRY: FVIClass = {
+  title: 'Maulbeere',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2020/04/25/19/28/mulberry-5092327_960_720.jpg?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '44 kcal',
+    carbs: '8.1 g',
+    fats: '0.4 g',
+    proteins: '1.3 g',
+    sugars: 'k.A.'
+  }
+}
+
+const MUSKMELON: FVIClass = {
+  title: 'Galiamelone (Muskmelon)',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2014/07/08/14/17/muskmelons-387466_960_720.jpg?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '26 kcal',
+    carbs: '5.6 g',
+    fats: '0.1 g',
+    proteins: '0.5 g',
+    sugars: '3.9 g'
+  }
+}
+
+const NECTARINE: FVIClass = {
+  title: 'Nektarine',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2017/06/16/14/35/nectarine-2409370_960_720.jpg?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '56 kcal',
+    carbs: '12.4 g',
+    fats: '0.1 g',
+    proteins: '0.9 g',
+    sugars: '12.3 g'
+  }
+}
+
+const ONION: FVIClass = {
+  title: 'Zwiebel',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1587049633312-d628ae50a8ae?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+ nutrition: {
+    calories: '28 kcal',
+    carbs: '4.9 g',
+    fats: '0.2 g',
+    proteins: '1.2 g',
+    sugars: '4.9 g'
+  }
+}
+
+const PERSIMMON: FVIClass = {
+  title: 'Kaki',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2015/03/24/17/29/kaki-687896_960_720.jpg?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '71 kcal',
+    carbs: '16 g',
+    fats: '0.3 g',
+    proteins: '0.6 g',
+    sugars: '16 g'
+  }
+}
+
+const PHYSALIS: FVIClass = {
+  title: 'Physalis',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2018/01/19/20/16/physalis-3093142_960_720.jpg?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '77 kcal',
+    carbs: '13.3 g',
+    fats: '1.1 g',
+    proteins: '2.3 g',
+    sugars: '3.9 g'
+  }
+}
+
+const PITAYA: FVIClass = {
+  title: 'Pitahaya',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1612955288824-151ec2d3a4d0?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '77 kcal',
+    carbs: '13.3 g',
+    fats: '1.1 g',
+    proteins: '2.3 g',
+    sugars: '3.9 g'
+  }
+}
+
+const POTATO: FVIClass = {
+  title: 'Kartoffel',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2016/06/10/16/32/potatoes-1448405_960_720.jpg?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '71 kcal',
+    carbs: '14.6 g',
+    fats: '0.1 g',
+    proteins: '2 g',
+    sugars: '0.7 g'
+  }
+}
+
+const RAMBUTAN: FVIClass = {
+  title: 'Rambutan',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2020/05/25/07/52/fruit-5217360_960_720.jpg?w=1920&q=20',
+  information: [
+    'Fake Litchi'
+  ],
+  nutrition: {
+    calories: '71 kcal',
+    carbs: '14.6 g',
+    fats: '0.1 g',
+    proteins: '2 g',
+    sugars: '0.7 g'
+  }
+}
+
+const SWEETPOTATO: FVIClass = {
+  title: 'Süsskartoffel',
+  thumbnail:
+ 'https://cdn.pixabay.com/photo/2018/07/24/13/01/vegetable-3559112_960_720.jpg?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '86 kcal',
+    carbs: '20 g',
+    fats: '0.1 g',
+    proteins: '1.6 g',
+    sugars: '4.2 g'
+  }
+}
+
+const TOMATOES: FVIClass = {
+  title: 'Tomaten',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1610216028956-98c3fd5a2a52?w=1920&q=20',
+  information: [
+   'Info'
+  ],
+  nutrition: {
+    calories: '18 kcal',
+    carbs: '2.6 g',
+    fats: '0.2 g',
+    proteins: '1 g',
+    sugars: '2.5 g'
+  }
+}
+
+const WATERMELON: FVIClass = {
+  title: 'Wassermelone',
+  thumbnail:
+ 'https://images.unsplash.com/photo-1610216028956-98c3fd5a2a52?w=1920&q=20',
+  information: [
+    'Info'
+  ],
+  nutrition: {
+    calories: '39 kcal',
+    carbs: '8.3 g',
+    fats: '0.2 g',
+    proteins: '0.6 g',
+    sugars: '8.3 g'
+  }
+}
+
 // To do -> die neuen Klassen am Ende hinzufügen
-const FVIClasses = [APPLE, BROCCOLI, GRAPE, LEMON, MANGO, ORANGE, STRAWBERRY]
+const FVIClasses = [APPLE,
+                  APRICOT,
+                  AVOCADO,
+                  BANANA,
+                  BEETROOT,
+                  BELLPEPPER,
+                  BLUEBERRY,
+                  BROGLE, // BROCCOLI Ersatz??
+                  BROCCOLI,
+                  CACTUS FRUIT,
+                  CANTALOUPE,
+                  CARAMBOLA,
+                  CAULIFLOWER,
+                  CHERRY,
+                  CHESTNUT,
+                  COCOS,
+                  CORN,
+                  CUCUMBER,
+                  DATE,
+                  EGGPLANT,
+                  FIG,
+                  GINGER,
+                  GRAPE,
+                  GUAVA,
+                  KIWI,
+                  KOHLRABI,
+                  LEMON,
+                  LIME,
+                  LYCHEE,
+                  MANGO,
+                  MARACUJA,
+                  MULBERRY,
+                  MUSKMELON,
+                  NECTARINE,
+                  ONION,
+                  ORANGE,
+                  PAPAYA,
+                  PASSION FRUIT,
+                  PEACH,
+                  PEAR,
+                  PERSIMMON,
+                  PHYSALIS,
+                  PINEAPPLE,
+                  PITAYA,
+                  PLUM,
+                  POMEGRANATE,
+                  POMELO,
+                  POTATO,
+                  RAMBUTAN,
+                  RASPBERRY,
+                  STRAWBERRY,
+                  SWEETPOTATO,
+                  TOMATOES,
+                  WATERMELON]
 
 export default FVIClasses
