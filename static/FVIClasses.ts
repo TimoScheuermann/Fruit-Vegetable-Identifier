@@ -456,11 +456,11 @@ const BROCCOLI: FVIClass = {
     'und die #3 gibts natürlich auch noch'
   ],
   nutrition: {
-    calories: '500 cal',
-    carbs: 'xy z',
-    fats: '0 g',
-    proteins: '14 g',
-    sugars: '1000 kg'
+    calories: '34 kcal',
+    carbs: '2.7 g',
+    fats: '0.2 g',
+    proteins: '3.8 g',
+    sugars: '2.7 g'
   }
 }
 
@@ -512,21 +512,7 @@ const BLUEBERRY: FVIClass = {
   }
 }
 
-const BROGLE: FVIClass = {
-  title: 'Brokkoli',
-  thumbnail:
-  'https://images.unsplash.com/photo-1553175005-a1129d5c188c?w=1920&q=20',
-  information: [
-    'Info'
-  ],
-  nutrition: {
-    calories: '34 kcal',
-    carbs: '2.7 g',
-    fats: '0.2 g',
-    proteins: '3.8 g',
-    sugars: '2.7 g'
-  }
-}
+
 
 const CACTUS_FRUIT: FVIClass = {
   title: 'Kaktusfeige',
@@ -887,10 +873,9 @@ const FVIClasses = [APPLE,
                   BANANA,
                   BEETROOT,
                   BELLPEPPER,
-                  BLUEBERRY,
-                  BROGLE, // BROCCOLI Ersatz??
+                  BLUEBERRY,           
                   BROCCOLI,
-                  CACTUS FRUIT,
+                  CACTUS_FRUIT,
                   CANTALOUPE,
                   CARAMBOLA,
                   CAULIFLOWER,
@@ -918,7 +903,7 @@ const FVIClasses = [APPLE,
                   ONION,
                   ORANGE,
                   PAPAYA,
-                  PASSION FRUIT,
+                  PASSION_FRUIT,
                   PEACH,
                   PEAR,
                   PERSIMMON,
