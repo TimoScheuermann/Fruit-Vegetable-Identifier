@@ -2,7 +2,7 @@
   <div class="fruit-vegetable-identifier">
     <transition name="slide-fullscreen" mode="in-out">
       <Result v-if="result" />
-      <Predicting v-else-if="src" />
+      <!-- <Predicting v-else-if="src" /> -->
       <Home v-else @fileChanged="fileChanged" />
     </transition>
   </div>

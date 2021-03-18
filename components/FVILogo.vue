@@ -97,8 +97,8 @@ svg {
   height: 100px;
   height: 100px;
 
-  border-radius: 30px;
-  backdrop-filter: blur(30px) brightness(120%);
+  // border-radius: 30px;
+  // backdrop-filter: blur(30px) brightness(120%);
 }
 
 @keyframes appear {

@@ -1,20 +1,10 @@
 <template>
   <div class="view-home">
-    <div class="hero-wrapper">
-      <img
-        src="https://images.unsplash.com/photo-1535227798054-e4373ef3795a?w=1920&q=20"
-        alt=""
-      />
-      <div class="hero-container">
-        <FVILogo />
-      </div>
-    </div>
+    <FVIHero />
     <div center content max-width>
-      <h1 success>Fruit & Vegetable</h1>
-      <h2>Identifier</h2>
-
       <div class="transition-wrapper">
         <transition name="fade" mode="out-in">
+          <FVILoader v-if="src" />
           <p v-if="!modelLoaded">Modell wird geladen</p>
           <div v-else>
             <input
@@ -24,35 +14,48 @@
               accept="image/png, image/jpeg"
             />
             <label for="file">
-              <i class="ti-file"></i>
+              <i class="ti-apple-alt"></i>
               <span>Wähle ein Bild</span>
             </label>
           </div>
         </transition>
       </div>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-        similique tenetur eius rem nemo eum eveniet sit quasi sunt magni
-        molestiae laudantium impedit distinctio sapiente ullam voluptate
-        obcaecati quae enim.
-      </p>
+      <FVISection>
+        <h1>About</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+          similique tenetur eius rem nemo eum eveniet sit quasi sunt magni
+          molestiae laudantium impedit distinctio sapiente ullam voluptate
+          obcaecati quae enim.
+        </p>
+      </FVISection>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
+import FVIHero from '../FVIHero.vue'
+import FVILoader from '../FVILoader.vue'
 import FVILogo from '../FVILogo.vue'
+import FVISection from '../FVISection.vue'
 
 @Component({
   components: {
-    FVILogo
+    FVILogo,
+    FVILoader,
+    FVISection,
+    FVIHero
   }
 })
 export default class Home extends Vue {
   mounted() {
     this.$store.commit('loadModel')
+  }
+
+  get src(): string | null {
+    return this.$store.getters.src
   }
 
   get modelLoaded(): boolean {
@@ -69,32 +72,8 @@ export default class Home extends Vue {
 .view-home {
   min-height: 100vh;
 
-  .hero-wrapper {
-    height: 250px;
-    position: relative;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      z-index: 0;
-    }
-    .hero-container {
-      z-index: 10;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
-
-  h1 {
-    margin: 0;
-  }
-
-  h2 {
-    margin: 0;
-    opacity: 0.5;
-    font-style: italic;
+  [content] {
+    padding-top: 0px;
   }
 
   .transition-wrapper {

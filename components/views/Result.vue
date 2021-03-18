@@ -26,8 +26,10 @@
           </div>
         </div>
 
-        <h3>Informationen</h3>
-        <p v-for="(i, j) in prediction.information" :key="j">{{ i }}</p>
+        <FVISection>
+          <h1>Informationen</h1>
+          <p v-for="(i, j) in prediction.information" :key="j">{{ i }}</p>
+        </FVISection>
       </div>
     </template>
   </div>
@@ -37,12 +39,17 @@
 import { Vue, Component } from 'vue-property-decorator'
 import { FVIClass, Prediction } from '~/static/interfaces'
 import FVIClasses from '~/static/FVIClasses'
+import FVISection from '../FVISection.vue'
 
-@Component
+@Component({
+  components: {
+    FVISection
+  }
+})
 export default class Result extends Vue {
   public nutrition = [
     { key: 'calories', title: 'Kalorien' },
-    { key: 'carbs', title: 'Kohlenhydrate' },
+    { key: 'carbs', title: 'Carbs' },
     { key: 'fats', title: 'Fette' },
     { key: 'proteins', title: 'Proteine' },
     { key: 'sugars', title: 'Zucker' }
