@@ -37,7 +37,7 @@ section.fvi-section {
   background-size: cover;
   text-align: center;
   border-radius: $border-radius;
-  margin: 30px -5vw;
+  margin: 30px -5vw 0;
   padding: 20px 5vw 0;
   .spacer {
     height: 5vw;

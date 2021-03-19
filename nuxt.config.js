@@ -40,32 +40,25 @@ export default {
     }
   },
   pwa: {
+    icon: {
+      fileName: 'app-icon.png'
+    },
     meta: {
       mobileAppIOS: true,
       appleStatusBarStyle: 'black-translucent',
       name: 'FV Identifier',
       title: 'FV Identifier',
-      description: 'TODO:',
       nativeUI: true,
       ogHost: 'https://fvi.timos.design',
       theme_color: '#25ca49',
       themeColor: '#25ca49'
     },
     manifest: {
-      background_color: '#25ca49',
-      backgroundColor: '#25ca49',
-      theme_color: '#25ca49',
-      themeColor: '#25ca49',
-      display: 'fullscreen'
+      name: 'FV Identifier',
+      short_name: 'FVI',
+      display: 'fullscreen',
+      background_color: '#1f2024',
+      theme_color: '#25ca49'
     }
-  },
-  manifest: {
-    background_color: '#25ca49',
-    backgroundColor: '#25ca49',
-    theme_color: '#25ca49',
-    themeColor: '#25ca49',
-    display: 'fullscreen',
-    name: 'FV Identifier',
-    display: 'fullscreen'
   }
 }
