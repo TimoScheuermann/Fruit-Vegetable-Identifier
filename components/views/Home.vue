@@ -24,10 +24,11 @@
       <FVISection>
         <h1>About</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-          similique tenetur eius rem nemo eum eveniet sit quasi sunt magni
-          molestiae laudantium impedit distinctio sapiente ullam voluptate
-          obcaecati quae enim.
+          Stell dir vor, du gehst in einen Biomarkt und vergisst auf Anhieb wie ein Apfel oder ein Brokkoli aussieht.
+          Um dir nicht die Blöße zu geben einen Mitarbeiter zu fragen, ob das was du in der Hand hältst wirklich ein Apfel ist,
+          öffnest du den Fruit-Vegetable-Identifier und all deine Probleme sind gelöst! Lade ein Bild von deinem Obst oder Gemüse hoch
+          und erfahre sofort was genau du da in der Hand hälts!
+          Und noch viel besser: erhalte zusätzlich noch Informationen darüber, wie es um die Nährwerte deines gescannten Obsts oder Gemüses steht! 
         </p>
       </FVISection>
     </div>
