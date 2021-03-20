@@ -1,172 +1,87 @@
 <template>
   <div class="fvi-loader">
-    <div class="cssload-dots">
-      <div class="cssload-dot"></div>
-      <div class="cssload-dot"></div>
-      <div class="cssload-dot"></div>
-      <div class="cssload-dot"></div>
-      <div class="cssload-dot"></div>
-    </div>
-
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <filter id="goo">
-          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" />
-          <feColorMatrix
-            in="blur"
-            mode="matrix"
-            values="1 0 0 0 0	0 1 0 0 0	0 0 1 0 0	0 0 0 18 -7"
-            result="goo"
-          />
-          <!--<feBlend in2="goo" in="SourceGraphic" result="mix" ></feBlend>-->
-        </filter>
-      </defs>
-    </svg>
+    <FVILogo />
+    <div class="loader-circles" />
+    <p>Bild wird analysiert...</p>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
+import FVILogo from './FVILogo.vue'
 
-@Component
+@Component({
+  components: {
+    FVILogo
+  }
+})
 export default class FVILoader extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-.cssload-dots {
-  width: 0;
-  height: 0;
+.fvi-loader {
   position: relative;
-  margin: auto;
-  outline: 1px solid red;
-  filter: url(#goo);
-}
+  height: 60px;
+  margin: 10px 0 20px;
+  display: inline-block;
+  vertical-align: middle;
 
-.cssload-dot {
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.cssload-dot:before {
-  content: '';
-  width: 44px;
-  height: 44px;
-  border-radius: 63px;
-  background: rgb(251, 211, 1);
-  position: absolute;
-  left: 50%;
-  transform: translateY(0);
-  margin-left: -21.5px;
-  margin-top: -21.5px;
-}
+  svg {
+    position: static;
+    width: 60px;
+    height: 60px;
+    transform: scale(0.7);
+    animation: loader-svg 1.704s ease alternate infinite;
+  }
 
-.cssload-dot:nth-child(5):before {
-  z-index: 100;
-  width: 56.5px;
-  height: 56.5px;
-  margin-left: -28.75px;
-  margin-top: -28.75px;
-  animation: cssload-dot-colors 4.6s ease infinite;
-}
+  .loader-circles {
+    width: 8px;
+    height: 8px;
+    background: currentColor;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 4px);
+    top: calc(50% - 4px);
+    transition: all 1s ease;
+    animation: loader-circles 1.704s ease-in-out alternate infinite;
+  }
 
-.cssload-dot:nth-child(1) {
-  animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
-}
-.cssload-dot:nth-child(1):before {
-  background-color: rgb(255, 50, 112);
-  animation: cssload-dot-move 4.6s 0s ease infinite;
-}
-
-.cssload-dot:nth-child(2) {
-  animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
-}
-.cssload-dot:nth-child(2):before {
-  background-color: $success;
-}
-
-.cssload-dot:nth-child(3) {
-  animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
-}
-.cssload-dot:nth-child(3):before {
-  background-color: rgb(175, 225, 2);
-  animation: cssload-dot-move 4.6s 2.3s ease infinite;
-}
-
-.cssload-dot:nth-child(4) {
-  animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
-}
-.cssload-dot:nth-child(4):before {
-  background-color: rgb(251, 211, 1);
-  animation: cssload-dot-move 4.6s 3.45s ease infinite;
-}
-
-@keyframes cssload-dot-move {
-  0% {
-    transform: translateY(0);
+  @keyframes loader-circles {
+    0% {
+      box-shadow: 0 0 0 currentColor;
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+    50% {
+      box-shadow: 24px -22px currentColor, 30px -15px 0 -3px currentColor,
+        31px 0px currentColor, 29px 9px 0 -3px currentColor,
+        24px 23px currentColor, 17px 30px 0 -3px currentColor,
+        0px 33px currentColor, -10px 28px 0 -3px currentColor,
+        -24px 22px currentColor, -29px 14px 0 -3px currentColor,
+        -31px -3px currentColor, -30px -11px 0 -3px currentColor,
+        -20px -25px currentColor, -12px -30px 0 -3px currentColor,
+        5px -29px currentColor, 13px -25px 0 -3px currentColor;
+      transform: rotate(180deg);
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(360deg);
+      box-shadow: 25px -22px currentColor, 15px -22px 0 -3px black,
+        31px 2px currentColor, 21px 2px 0 -3px black, 23px 25px currentColor,
+        13px 25px 0 -3px black, 0px 33px currentColor, -10px 33px 0 -3px black,
+        -26px 24px currentColor, -19px 17px 0 -3px black, -32px 0px currentColor,
+        -23px 0px 0 -3px black, -25px -23px currentColor,
+        -16px -23px 0 -3px black, 0px -31px currentColor,
+        -2px -23px 0 -3px black;
+    }
   }
-  18%,
-  22% {
-    transform: translateY(-88px);
-  }
-  40%,
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes cssload-dot-colors {
-  0% {
-    background-color: rgb(251, 211, 1);
-  }
-  25% {
-    background-color: rgb(255, 50, 112);
-  }
-  50% {
-    background-color: $success;
-  }
-  75% {
-    background-color: rgb(175, 225, 2);
-  }
-  100% {
-    background-color: rgb(251, 211, 1);
-  }
-}
-
-@keyframes cssload-dot-rotate-1 {
-  0% {
-    transform: rotate(-105deg);
-  }
-  100% {
-    transform: rotate(270deg);
-  }
-}
-
-@keyframes cssload-dot-rotate-2 {
-  0% {
-    transform: rotate(165deg);
-  }
-  100% {
-    transform: rotate(540deg);
-  }
-}
-
-@keyframes cssload-dot-rotate-3 {
-  0% {
-    transform: rotate(435deg);
-  }
-  100% {
-    transform: rotate(810deg);
-  }
-}
-
-@keyframes cssload-dot-rotate-4 {
-  0% {
-    transform: rotate(705deg);
-  }
-  100% {
-    transform: rotate(1080deg);
+  @keyframes loader-svg {
+    0% {
+      transform: scale(0) rotate(0deg);
+    }
+    100% {
+      transform: scale(0.7) rotate(360deg);
+    }
   }
 }
 </style>

@@ -96,3 +96,85 @@
     }
   }
 }
+
+@mixin fvi-letter {
+  path {
+    @media #{$isLight} {
+      fill: $color;
+    }
+    @media #{$isDark} {
+      fill: $color_dark;
+    }
+
+    &#fvir {
+    stroke-dasharray: 145.36923217773438;
+    stroke-dashoffset: 145.36923217773438;
+    }
+
+    &#fviu {
+    stroke-dasharray: 228.83560180664062;
+    stroke-dashoffset: 228.83560180664062;
+    }
+
+    &#fvii {
+    stroke-dasharray: 153.8816375732422;
+    stroke-dashoffset: 153.8816375732422;
+    }
+
+    &#fvit {
+    stroke-dasharray: 167.45523071289062;
+    stroke-dashoffset: 167.45523071289062;
+    }
+
+    &#fviand {
+    stroke-dasharray: 306.6249694824219;
+    stroke-dashoffset: 306.6249694824219;
+    }
+
+    &#fviv {
+    stroke-dasharray: 249.6445770263672;
+    stroke-dashoffset: 249.6445770263672;
+    }
+
+    &#fvie {
+    stroke-dasharray: 211.99647521972656;
+    stroke-dashoffset: 211.99647521972656;
+    }
+
+    &#fvig {
+    stroke-dasharray: 284.6717224121094;
+    stroke-dashoffset: 284.6717224121094;
+    }
+
+    &#fvie {
+    stroke-dasharray: 211.99647521972656;
+    stroke-dashoffset: 211.99647521972656;
+    }
+
+    &#fvit {
+    stroke-dasharray: 167.45523071289062;
+    stroke-dashoffset: 167.45523071289062;
+    }
+
+    &#fvia {
+    stroke-dasharray: 218.34588623046875;
+    stroke-dashoffset: 218.34588623046875;
+    }
+
+    &#fvib {
+    stroke-dasharray: 256.0926818847656;
+    stroke-dashoffset: 256.0926818847656;
+    }
+
+    &#fvil {
+    stroke-dasharray: 144.72645568847656;
+    stroke-dashoffset: 144.72645568847656;
+    }
+
+    &#fvie {
+    stroke-dasharray: 211.99647521972656;
+    stroke-dashoffset: 211.99647521972656;
+    }
+
+  }
+}

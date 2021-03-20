@@ -1,15 +1,7 @@
 <template>
   <div class="fvi-hero">
     <FVILogo />
-    <svg title>
-      <text id="l" x="50%" y="50%" dominant-baseline="middle">
-        Fruit & Vegetable
-      </text>
-      <text id="s" x="50%" y="50%" dominant-baseline="middle">
-        <tspan x="50%" y="25">Fruit &</tspan>
-        <tspan x="50%" y="75">Vegetable</tspan>
-      </text>
-    </svg>
+    <FVITitle />
     <div center class="ident">Identifier</div>
   </div>
 </template>
@@ -17,10 +9,12 @@
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
 import FVILogo from './FVILogo.vue'
+import FVITitle from './FVITitle.vue'
 
 @Component({
   components: {
-    FVILogo
+    FVILogo,
+    FVITitle
   }
 })
 export default class FVIHero extends Vue {}
@@ -53,36 +47,21 @@ export default class FVIHero extends Vue {}
   .ident {
     font-size: 2em;
     font-weight: bold;
+
+    animation: ident 0.6s ease-in-out 2.2s both;
   }
+  .fvi-title {
+    margin-top: 5px;
+  }
+}
 
-  svg[title] {
-    width: 100vw;
-    height: 55px;
-
-    text#s {
-      display: none;
-    }
-    @media only screen and (max-width: 400px) {
-      height: 110px;
-      text#l {
-        display: none;
-      }
-      text#s {
-        display: block;
-      }
-    }
-
-    margin-top: 20px;
-    font: inherit;
-
-    text {
-      fill: none;
-      stroke: currentColor;
-      stroke-linejoin: round;
-      font-size: 3em;
-      font-weight: bolder;
-      text-anchor: middle;
-    }
+@keyframes ident {
+  from {
+    opacity: 0;
+    letter-spacing: -10px;
+  }
+  to {
+    opacity: 1;
   }
 }
 </style>

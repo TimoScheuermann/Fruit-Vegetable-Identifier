@@ -5,7 +5,7 @@
       <div class="transition-wrapper">
         <transition name="fade" mode="out-in">
           <FVILoader v-if="src" />
-          <p v-if="!modelLoaded">Modell wird geladen</p>
+          <p v-else-if="!modelLoaded">Modell wird geladen</p>
           <div v-else>
             <input
               @change="fileChanged"
