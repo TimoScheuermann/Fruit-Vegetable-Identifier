@@ -5,9 +5,7 @@ const APPLE: FVIClass = {
   thumbnail:
     'https://images.unsplash.com/photo-1537283963865-f825e1ea7e21?w=1920&q=20',
   information: [
-    'Hallo, Information #1',
-    'Und das ist Information #2',
-    'und die #3 gibts natürlich auch noch'
+    'Der Apfel galt im antiken Griechenland als Liebesbeweis. Wenn ein junger Mann seiner Geliebten im antiken Griechenland seine Liebe erklären und ihr zugleich einen Heiratsantrag machen wollte, so soll er ihr einen Apfel angeboten haben - akzeptierte sie den Apfel, nahm sie gleichzeitig auch den Heiratsantrag an.'
   ],
   nutrition: {
     calories: '54 kcal',
@@ -22,7 +20,7 @@ const APRICOT: FVIClass = {
   title: 'Aprikose',
   thumbnail:
     'https://images.unsplash.com/photo-1586127145878-56a6b3dd537f?w=1920&q=20',
-  information: ['Info1'],
+  information: ['Die getrocknete Aprikosen helfen dir bei der Gewichtsabnahme, da die Konzentration der Nährstoffe höher ist, brauchst du auch nur eine kleiner Portion um dein Sättigungsgefühl zu erreichen. Somit optimal als Snack während der Diät zwischendurch.'],
   nutrition: {
     calories: '48 kcal',
     carbs: '10 g',
@@ -36,7 +34,7 @@ const AVOCADO: FVIClass = {
   title: 'Avocado',
   thumbnail:
     'https://images.unsplash.com/photo-1587825045005-c9cc5fa27203?w=1920&q=20',
-  information: ['Info'],
+  information: ['Avocadobäume bestäuben sich nicht selbst. Sie brauchen einen anderen Avocadobaum in der Nähe, um zu wachsen. Avocados sind ein aztekisches Symbol für Liebe und Fruchtbarkeit, und sie wachsen auch paarweise auf Bäumen.'],
   nutrition: {
     calories: '160 kcal',
     carbs: '0.4 g',
@@ -50,7 +48,7 @@ const BANANA: FVIClass = {
   title: 'Banane',
   thumbnail:
     'https://images.unsplash.com/photo-1528825871115-3581a5387919?w=1920&q=20',
-  information: ['Info'],
+  information: ['2016 wurde in China ein neues Gesetz verabschiedet, das es verbietet, im Livestream auf verführerische Art Bananen zu essen.'],
   nutrition: {
     calories: '93 kcal',
     carbs: '20 g',
@@ -78,7 +76,7 @@ const CHERRY: FVIClass = {
   title: 'Kirsche',
   thumbnail:
     'https://images.unsplash.com/photo-1528821099448-43ccebfbb899?w=1920&q=20',
-  information: ['Info'],
+  information: ['Kirschen machen glücklich – insbesondere Schattenmorellen. Diese enthalten besonders viel von der Aminosäure Trypthopghan, ein Baustoff für diverse Glückshormone.'],
   nutrition: {
     calories: '64 kcal',
     carbs: '13.3 g',
@@ -92,7 +90,7 @@ const COCOS: FVIClass = {
   title: 'Kokosnuss',
   thumbnail:
     'https://images.unsplash.com/photo-1589531786867-d06bad774195?w=1920&q=20',
-  information: ['Info'],
+  information: ['Um herauszufinden, ob eine Kokosnuss noch frisch ist, musst Du sie einfach schütteln. Hört sich die Frucht voll an und es „schwappt“, ist die Nuss noch frisch. Je älter sie ist, desto weniger Flüssigkeit enthält sie!'],
   nutrition: {
     calories: '354 kcal',
     carbs: '15 g',
@@ -106,7 +104,7 @@ const DATE: FVIClass = {
   title: 'Datteln',
   thumbnail:
     'https://images.unsplash.com/photo-1598228961764-fdc1484f2af1?w=1920&q=20',
-  information: ['Info'],
+  information: ['Datteln machen glücklich und zwar durch den hohen Tryptophan-Gehalt, der im Körper in Serotonin und Melatonin umgewandelt wird.'],
   nutrition: {
     calories: '297 kcal',
     carbs: '65 g',
@@ -121,10 +119,7 @@ const GRAPE: FVIClass = {
   thumbnail:
     'https://images.unsplash.com/photo-1572360678077-0ab5ce1be418?w=1920&q=20',
   information: [
-    'Hallo, Information #1',
-    'Und das ist Information #2',
-    'und die #3 gibts natürlich auch noch'
-  ],
+    'Es gibt Menschen, die unter einer Weinphobie leiden. Der Fachbegriff für die Angst vorm Wein lautet Oenophobie.'],
   nutrition: {
     calories: '68 kcal',
     carbs: '15.6 g',
@@ -138,7 +133,7 @@ const GUAVA: FVIClass = {
   title: 'Guave',
   thumbnail:
     'https://images.unsplash.com/photo-1600659090872-74ca5ca1023a?w=1920&q=20',
-  information: ['Info'],
+  information: ['Gerade Raucher, die höhere Mengen an Antioxidantien, Karotin und Anthocyan als Nichtraucher brauchen, sollten die Guave in ihren Ernährungsplan hinzufügen.'],
   nutrition: {
     calories: '61 kcal',
     carbs: '12.89 g',
@@ -152,7 +147,7 @@ const KIWI: FVIClass = {
   title: 'Kiwi',
   thumbnail:
     'https://images.unsplash.com/photo-1591796079433-7f41b45eb95c?w=1920&q=20',
-  information: ['Info'],
+  information: ['Kiwis enthalten mehr Vitamin C als Orangen.'],
   nutrition: {
     calories: '62 kcal',
     carbs: '9.1 g',
@@ -167,9 +162,7 @@ const LEMON: FVIClass = {
   thumbnail:
     'https://images.unsplash.com/photo-1609639643505-3c158a56de42?w=1920&q=20',
   information: [
-    'Hallo, Information #1',
-    'Und das ist Information #2',
-    'und die #3 gibts natürlich auch noch'
+    'Das Streuen von Zitronensaft auf andere Früchte kann verhindern, dass sie braun werden.'
   ],
   nutrition: {
     calories: '39 kcal',
@@ -184,7 +177,7 @@ const LIME: FVIClass = {
   title: 'Limette',
   thumbnail:
     'https://images.unsplash.com/photo-1578855691621-8a08ea00d1fb?w=1920&q=20',
-  information: ['Info'],
+  information: ['Das Wichtigste für fitnessbewusste Urlauber: Low Carb Caipirinha-> 6 cl Cachaca (Pitù), 1 Limette, 2 EL Erythrit oder Kokosblütenzucker, 5 EL Crushed Ice. Cheers!'],
   nutrition: {
     calories: '48 kcal',
     carbs: '1.9 g',
@@ -198,7 +191,7 @@ const LYCHEE: FVIClass = {
   title: 'Litschi',
   thumbnail:
     'https://images.unsplash.com/photo-1591600986686-bf5f872d2e4e?w=1920&q=20',
-  information: ['Info'],
+  information: ['In Südchina konnte man vor vielen vielen Jahren in manchen Gegenden mit Litchis bezahlen. Wir wetten dass einige auch Rambutans benutzt haben.'],
   nutrition: {
     calories: '76 kcal',
     carbs: '17 g',
@@ -213,9 +206,7 @@ const MANGO: FVIClass = {
   thumbnail:
     'https://images.unsplash.com/photo-1591073113125-e46713c829ed?w=1920&q=20',
   information: [
-    'Hallo, Information #1',
-    'Und das ist Information #2',
-    'und die #3 gibts natürlich auch noch'
+    '100 g Mango decken bereits fast 60% des Bedarfs an Vitamin A eines Erwachsenen! Das ist doppelt so viel wie ihr Gehalt an Vitamin C! Vitamin A ist unter anderem wichtig für die Haut und das Sehvermögen.'
   ],
   nutrition: {
     calories: '62 kcal',
@@ -230,7 +221,7 @@ const MARACUJA: FVIClass = {
   title: 'Maracuja',
   thumbnail:
     'https://images.unsplash.com/photo-1464287047163-e0b510b491e9?w=1920&q=20',
-  information: ['Info'],
+  information: ['Das Passionsfrucht hat eine violette Hülle. Die Maracuja dagegen ist die gelbe Passionsfrucht, das auch säurehaltiger ist.'],
   nutrition: {
     calories: '67 kcal',
     carbs: '9.5 g',
@@ -245,9 +236,7 @@ const ORANGE: FVIClass = {
   thumbnail:
     'https://images.unsplash.com/photo-1588913695593-e1293fe4863e?w=1920&q=20',
   information: [
-    'Hallo, Information #1',
-    'Und das ist Information #2',
-    'und die #3 gibts natürlich auch noch'
+    'Durchschnittlich verzehrt jeder Deutsche rund sechs Kilogramm Orangen im Jahr.'
   ],
   nutrition: {
     calories: '50 kcal',
@@ -262,7 +251,7 @@ const PAPAYA: FVIClass = {
   title: 'Papaya',
   thumbnail:
     'https://images.unsplash.com/photo-1526318472351-c75fcf070305?w=1920&q=20',
-  information: ['Info'],
+  information: ['Die Papayakerne kannst Du ganz toll zum Würzen einsetzen und sie sind ein klasse Pfefferersatz. Sie schmecken milder als Pfeffer und auch aromatischer.'],
   nutrition: {
     calories: '43 kcal',
     carbs: '7.2 g',
@@ -276,7 +265,7 @@ const PASSION_FRUIT: FVIClass = {
   title: 'Passionsfrucht',
   thumbnail:
     'https://images.unsplash.com/photo-1604495772376-9657f0035eb5?w=1920&q=20',
-  information: ['Info'],
+  information: ['Das Passionsfrucht hat eine violette Hülle. Die Maracuja dagegen ist die gelbe Passionsfrucht, das auch säurehaltiger ist.'],
   nutrition: {
     calories: '67 kcal',
     carbs: '9.5 g',
@@ -290,7 +279,7 @@ const PEACH: FVIClass = {
   title: 'Pfirsich',
   thumbnail:
     'https://images.unsplash.com/photo-1595124245030-41448b199d6d?w=1920&q=20',
-  information: ['Info'],
+  information: ['Ein Pfirsich war die allererste Frucht, die auf dem Mond gegessen wurde.'],
   nutrition: {
     calories: '39 kcal',
     carbs: '8.9 g',
@@ -304,7 +293,7 @@ const PEAR: FVIClass = {
   title: 'Birne',
   thumbnail:
     'https://images.unsplash.com/photo-1601876819102-99560f772713?w=1920&q=20',
-  information: ['Info'],
+  information: ['Wie passt die Birnensorte „Williams Christ“ in Spirituosen-Flaschen? Den noch ganz kleinen Früchten werden am Baum Flaschen übergestülpt und am Zweig befestigt. Die Birne wächst dann in der Flasche weiter bis zur Reife. Nach der Entfernung vom Zweig wird der Schnaps zugegossen.'],
   nutrition: {
     calories: '52 kcal',
     carbs: '12.4 g',
@@ -318,7 +307,7 @@ const PINEAPPLE: FVIClass = {
   title: 'Ananas',
   thumbnail:
     'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=1920&q=20',
-  information: ['Info'],
+  information: ['Die Ananas ist ein echter Stimmungsaufheller. So enthält sie natürliches Vanillin, das anregend und euphorisierend wirken soll. Die ebenfalls enthaltene Aminosäure Tryptophan, die Vorstufe des sogenannten Glückshormons Serotonin, sorgt für Ausgeglichenheit und gute Laune.'],
   nutrition: {
     calories: '57 kcal',
     carbs: '12.4 g',
@@ -332,7 +321,7 @@ const PLUM: FVIClass = {
   title: 'Pflaume',
   thumbnail:
     'https://images.unsplash.com/photo-1603408209093-cd3c9af497d6?w=1920&q=20',
-  information: ['Info'],
+  information: ['Auf dem Weg durch den Darm nehmen die unverdaulichen Nahrungsfasern aus den Pflaumen verschiedene Abfall- und Giftstoffe mit und tragen damit zur Krebsprophylaxe bei.'],
   nutrition: {
     calories: '45 g',
     carbs: '10 g',
@@ -346,7 +335,7 @@ const POMEGRANATE: FVIClass = {
   title: 'Granatapfel',
   thumbnail:
     'https://images.unsplash.com/photo-1597854710119-dbb43d562f78?w=1920&q=20',
-  information: ['Info'],
+  information: ['Die Frucht enthält das pflanzliche Gerbstoff Tannin, was eine adstrigierende und entzündungshemmende Wirkung auf die Schleimhaut im Verdauungstrakt hat.'],
   nutrition: {
     calories: '80 kcal',
     carbs: '19 g',
@@ -360,7 +349,7 @@ const POMELO: FVIClass = {
   title: 'Pampelmuse',
   thumbnail:
     'https://images.unsplash.com/photo-1550828553-7c8732c4bda6?w=1920&q=20',
-  information: ['Info'],
+  information: ['Dank des Inhaltstoffes Naringin senkt der Verzehr von Pomelos den Blutdruck und stärkt unsere Gefäße.'],
   nutrition: {
     calories: '80 kcal',
     carbs: '19 g',
@@ -374,7 +363,7 @@ const RASPBERRY: FVIClass = {
   title: 'Himbeeren',
   thumbnail:
     'https://images.unsplash.com/photo-1569474998941-1665e838d492?w=1920&q=20',
-  information: ['Info'],
+  information: ['Russland ist der größte Himbeerhersteller der Welt. Pro Jahr werden etwa 125.000 Tonnen Himbeeren produziert.'],
   nutrition: {
     calories: '34 kcal',
     carbs: '4.8 g',
@@ -389,9 +378,7 @@ const STRAWBERRY: FVIClass = {
   thumbnail:
     'https://images.unsplash.com/photo-1588600958832-fa0b6e43966b?w=1920&q=20',
   information: [
-    'Hallo, Information #1',
-    'Und das ist Information #2',
-    'und die #3 gibts natürlich auch noch'
+    'Die Erdbeere ist eine Sammelnussfrucht und hat durchschnittlich 200 Samen an der Außenseite. Die Samen sind dabei die eigentlichen Früchte.'
   ],
   nutrition: {
     calories: '32 kcal',
@@ -426,7 +413,7 @@ const BEETROOT: FVIClass = {
   title: 'Rote Bete',
   thumbnail:
     'https://images.unsplash.com/photo-1580909784825-a32dca9ceb7a?w=1920&q=20',
-  information: ['Info'],
+  information: ['Ein Glas Rote-Bete-Saft am Tag enthält genug Kieselsäure, um unsere Nägel zu stärken und die Haarwurzeln nachweislich zu festigen.'],
   nutrition: {
     calories: '42 kcal',
     carbs: '8.4 g',
@@ -440,7 +427,7 @@ const BELLPEPPER: FVIClass = {
   title: 'Paprika',
   thumbnail:
     'https://images.unsplash.com/photo-1606989003252-ce8bda4c5adf?w=1920&q=20',
-  information: ['Info'],
+  information: ['Früher gab es tatsächlich nur scharfe Paprika. Erst in den 1950er Jahren wurden in Ungarn die ersten süße Paprika gezüchtet.'],
   nutrition: {
     calories: '37 kcal',
     carbs: '6.4 g',
@@ -454,7 +441,7 @@ const BLUEBERRY: FVIClass = {
   title: 'Heidelbeeren',
   thumbnail:
     'https://images.unsplash.com/photo-1498557850523-fd3d118b962e?w=1920&q=20',
-  information: ['Info'],
+  information: ['Medizinische Studien haben gezeigt, dass die aus Heidelbeeren isolierten Substanzen die Augenfunktion verbessern und die Durchblutung der Netzhaut beschleunigen.'],
   nutrition: {
     calories: '42 kcal',
     carbs: '7.4 g',
