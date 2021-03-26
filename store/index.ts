@@ -46,8 +46,8 @@ export const mutations = {
     if (!state.model && !state.modelLoading) {
       state.modelLoading = true
 
-      const indexeddb = 'indexeddb://fvi-model-v3'
-      const modelPath = 'models/v3/model.json'
+      const indexeddb = 'indexeddb://fvi-model-v5'
+      const modelPath = 'models/v5/model.json'
 
       // try to load the model from local storage
       try {
