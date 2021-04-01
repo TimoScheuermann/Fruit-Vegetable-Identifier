@@ -62,7 +62,7 @@ const CANTALOUPE: FVIClass = {
   title: 'Cantaloupe',
   thumbnail:
     'https://images.unsplash.com/photo-1598965869429-7ffa11f0b745?w=1920&q=20',
-  information: ['Info'],
+  information: ['Es gibt Wassermelonen und es gibt Zuckermelonen. Von Zuckermelonen gibt es rund 500 verschiedene Sorten, die beliebteste darunter ist die Cantaloupe.'],
   nutrition: {
     calories: '35 kcal',
     carbs: '8 g',
@@ -396,9 +396,7 @@ const BROCCOLI: FVIClass = {
   thumbnail:
     'https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?w=1920&q=20',
   information: [
-    'Hallo, Information #1',
-    'Und das ist Information #2',
-    'und die #3 gibts natürlich auch noch'
+    'Das Trio aus Polyphenol (chemische Verbindung), Antioxidantien und Folsäure (Vitamin B9), das in Brokkoli zu finden ist, stärkt das Herz und schützt den lebensnotwendigen Muskel vor Krankheiten oder dem Stillstand.'
   ],
   nutrition: {
     calories: '34 kcal',
@@ -455,7 +453,7 @@ const CACTUS_FRUIT: FVIClass = {
   title: 'Kaktusfeige',
   thumbnail:
     'https://cdn.pixabay.com/photo/2020/06/19/07/13/prickly-pear-5315956_960_720.jpg?w=1920&q=20',
-  information: ['Really?'],
+  information: ['Die Inhaltsstoffe von Kaktusfeigen, können Fett binden und blockieren. Aufgrund ihrer Bindungsaffinität sorgen sie dafür, dass der Körper Nahrungsfette nicht als unschöne Fettdepots an Bauch und Hüfte lagert, sondern unverdaut wieder abgibt.'],
   nutrition: {
     calories: '46 kcal',
     carbs: '7.1 g',
@@ -469,7 +467,7 @@ const CARAMBOLA: FVIClass = {
   title: 'Karambola (Sternfrucht)',
   thumbnail:
     'https://cdn.pixabay.com/photo/2016/07/22/09/59/fruit-1534493_960_720.jpg?w=1920&q=20',
-  information: ['Info'],
+  information: ['Lecker aber tödlich: Für Nierenkranke sind Sternfrüchte tabu. Denn die auch Karambole genannte Frucht enthält ein Nervengift, das gesunden Menschen nicht schadet, bei Nierenkranken aber schwere Vergiftungen auslösen kann.'],
   nutrition: {
     calories: '31 kcal',
     carbs: '6.7 g',
@@ -483,7 +481,7 @@ const CAULIFLOWER: FVIClass = {
   title: 'Blumenkohl',
   thumbnail:
     'https://images.unsplash.com/photo-1604573291048-7e10e1db605b?w=1920&q=20',
-  information: ['Info'],
+  information: ['Blumenkohl ist der Papi von Romanesco - aufgrund der Verwandtschaft mit dem Brokkoli konnte durch die Kreuzung von Blumenkohl und Brokkoli die Sorte Romanesco, auch bekannt als grüner Blumenkohl, gezüchtet werden'],
   nutrition: {
     calories: '28 kcal',
     carbs: '2.3 g',
@@ -497,7 +495,7 @@ const CHESTNUT: FVIClass = {
   title: 'Esskastanien (Maronen)',
   thumbnail:
     'https://images.unsplash.com/photo-1510950109928-f3aac6afbb03?w=1920&q=20',
-  information: ['Info'],
+  information: ['Die kleinen Kraftpakete enthalten sämtliche B-Vitamine (toll für die Haare), Vitamin E und C, das Provitamin A, hochwertiges Eiweiß und eine ganze Riege wichtiger Mineralstoffe und Spurenelemente wie Kalium, Calcium (die Zähne schreien Hurra), Phosphor, Schwefel, Eisen, Magnesium, Kupfer und Mangan.'],
   nutrition: {
     calories: '175 kcal',
     carbs: '40 g',
@@ -511,7 +509,7 @@ const CORN: FVIClass = {
   title: 'Mais',
   thumbnail:
     'https://images.unsplash.com/photo-1552318744-8cdc310db580?w=1920&q=20',
-  information: ['Info'],
+  information: ['Umweltheld - 1 ha Maisanbau "recycelt" den CO2-Ausstoß von 60.000 km Autofahrt bzw. vier Pkw "Durchschnittsfahrern" '],
   nutrition: {
     calories: '109 kcal',
     carbs: '15.7 g',
@@ -525,7 +523,7 @@ const CUCUMBER: FVIClass = {
   title: 'Gurke',
   thumbnail:
     'https://images.unsplash.com/photo-1552318744-8cdc310db580?w=1920&q=20',
-  information: ['Nicht rumgurken. Trainieren!'],
+  information: ['Nicht rumgurken. Trainieren! Weil wir so nett sind hier noch extra Klugscheißerwissen für Dich: Es kann einen Unterschied von 20 ° zwischen der Innenseite einer Gurke und der tatsächlichen Außentemperatur geben. Es wird angenommen, dass dies der Ursprung der Wendung „Cool wie eine Gurke“ ist.'],
   nutrition: {
     calories: '16 kcal',
     carbs: '1.8 g',
@@ -539,7 +537,7 @@ const EGGPLANT: FVIClass = {
   title: 'Aubergine',
   thumbnail:
     'https://images.unsplash.com/photo-1601477572224-cb15a76f30f4?w=1920&q=20',
-  information: ['Info'],
+  information: ['Die Leute nannten die Pflanze „Eggplant“, weil bestimmte Sorten weiße Früchte von ovaler Form produzieren, die wie Hühnereier aussehen.'],
   nutrition: {
     calories: '25 kcal',
     carbs: '2.6 g',
@@ -553,7 +551,7 @@ const FIG: FVIClass = {
   title: 'Feige',
   thumbnail:
     'https://images.unsplash.com/photo-1601379760607-78be3d4ff432?w=1920&q=20',
-  information: ['Info'],
+  information: ['Schon in der Bibel spielen Feigen eine wichtige Rolle, nämlich im Garten Eden, als einzige Frucht neben dem Apfel. Nachdem Adam und Eva vom „Baum der Erkenntnis“ gegessen hatten, bedeckten sie sich mit Feigenblättern.'],
   nutrition: {
     calories: '63 kcal',
     carbs: '12.9 g',
@@ -567,7 +565,7 @@ const GINGER: FVIClass = {
   title: 'Ingwer',
   thumbnail:
     'https://images.unsplash.com/photo-1615484478243-c94e896edbae?w=1920&q=20',
-  information: ['Info'],
+  information: ['Laut einer Studie der University of Georgia mildert Ingwer Muskelkater. Außerdem kurbelt er unseren Stoffwechsel an, was beim Abnehmen förderlich sein kann.'],
   nutrition: {
     calories: '70 kcal',
     carbs: '13 g',
@@ -581,7 +579,7 @@ const KOHLRABI: FVIClass = {
   title: 'Kohlrabi',
   thumbnail:
     'https://images.unsplash.com/photo-1554107716-ec43584a2e9a?w=1920&q=20',
-  information: ['Info'],
+  information: ['Auf 100 Gramm des Wintergemüses kommen 322 Milligramm Kalium und 63 Milligramm Vitamin C, das ist mehr als bei mancher Obstsorte. Außerdem liefert die Knolle eine große Menge Phosphor - ein wichtiger Baustein für gesunde Knochen.'],
   nutrition: {
     calories: '28 kcal',
     carbs: '3.7 g',
@@ -595,7 +593,7 @@ const MULBERRY: FVIClass = {
   title: 'Maulbeere',
   thumbnail:
     'https://cdn.pixabay.com/photo/2020/04/25/19/28/mulberry-5092327_960_720.jpg?w=1920&q=20',
-  information: ['Info'],
+  information: ['Laut einer Studie der Chung Shan Medical Universitiy in Taiwan bzw. dem daran angegliederten Institute of Biochemistry an Biotechnology, verhindern Maulbeeren sogar die Bildung von Metastasen bei Hautkrebs (Melanomen). Verantwortlich dafür sind die in den Früchten enthaltenen bioaktiven Anthocyanine.'],
   nutrition: {
     calories: '44 kcal',
     carbs: '8.1 g',
@@ -609,7 +607,7 @@ const MUSKMELON: FVIClass = {
   title: 'Galiamelone (Muskmelon)',
   thumbnail:
     'https://cdn.pixabay.com/photo/2014/07/08/14/17/muskmelons-387466_960_720.jpg?w=1920&q=20',
-  information: ['Info'],
+  information: ['Botanisch gesehen sind die Zuckermelonen (zu denen die Galiamelone gehört) mehr mit der Gurke verwandt als mit der Wassermelone'],
   nutrition: {
     calories: '26 kcal',
     carbs: '5.6 g',
@@ -623,7 +621,7 @@ const NECTARINE: FVIClass = {
   title: 'Nektarine',
   thumbnail:
     'https://cdn.pixabay.com/photo/2017/06/16/14/35/nectarine-2409370_960_720.jpg?w=1920&q=20',
-  information: ['Info'],
+  information: ['Pfirsich und Nektarinen sind die gleichen Arten, auch wenn sie kommerziell als unterschiedliche Früchte betrachtet werden. Der Unterschied zwischen ihnen ist, dass Pfirsiche die unscharfe Haut haben, während Nektarinen dies nicht tun.'],
   nutrition: {
     calories: '56 kcal',
     carbs: '12.4 g',
@@ -637,7 +635,7 @@ const ONION: FVIClass = {
   title: 'Zwiebel',
   thumbnail:
     'https://images.unsplash.com/photo-1587049633312-d628ae50a8ae?w=1920&q=20',
-  information: ['Info'],
+  information: ['Wenn man eine aufgeschnittene Zwiebel auf der Fußsohle reibt, hat man etwa eine Stunde später den Geschmack von Zwiebel im Mund. Viel Spaß beim Ausprobieren ;)'],
   nutrition: {
     calories: '28 kcal',
     carbs: '4.9 g',
@@ -651,7 +649,7 @@ const PERSIMMON: FVIClass = {
   title: 'Kaki',
   thumbnail:
     'https://cdn.pixabay.com/photo/2015/03/24/17/29/kaki-687896_960_720.jpg?w=1920&q=20',
-  information: ['Info'],
+  information: ['Besonders Sportler könnten von der Kaki profitieren, da sie dadurch schnell mit neuer Energie versorgt werden können. Zwei Kakis können bereits ausreichen, um auch den täglichen Bedarf an Vitamin A zu decken. Vitamin A unterstützt unsere Sehkraft und ist an zahlreichen Wachstumsvorgängen im Körper beteiligt. '],
   nutrition: {
     calories: '71 kcal',
     carbs: '16 g',
@@ -665,7 +663,7 @@ const PHYSALIS: FVIClass = {
   title: 'Physalis',
   thumbnail:
     'https://cdn.pixabay.com/photo/2018/01/19/20/16/physalis-3093142_960_720.jpg?w=1920&q=20',
-  information: ['Info'],
+  information: ['In Frankreich heißen die Früchte Amour en cage- übersetzt also soviel wie Liebe in einem Käfig <3'],
   nutrition: {
     calories: '77 kcal',
     carbs: '13.3 g',
@@ -679,7 +677,7 @@ const PITAYA: FVIClass = {
   title: 'Pitahaya',
   thumbnail:
     'https://images.unsplash.com/photo-1612955288824-151ec2d3a4d0?w=1920&q=20',
-  information: ['Info'],
+  information: ['Die Pitahaya hat einen positiven Einfluss auf den Cholesterinspiegel und kann somit helfen, Herzkrankheiten vorzubeugen.'],
   nutrition: {
     calories: '77 kcal',
     carbs: '13.3 g',
@@ -693,7 +691,7 @@ const POTATO: FVIClass = {
   title: 'Kartoffel',
   thumbnail:
     'https://cdn.pixabay.com/photo/2016/06/10/16/32/potatoes-1448405_960_720.jpg?w=1920&q=20',
-  information: ['Info'],
+  information: [' In Deutschland gibt es drei Kartoffelmuseen: das Deutsche Kartoffelmuseum in Fußgönheim, das Kartoffelmuseum in München und das Vorpommersche Kartoffelmuseum in Tribsees.'],
   nutrition: {
     calories: '71 kcal',
     carbs: '14.6 g',
@@ -707,7 +705,7 @@ const RAMBUTAN: FVIClass = {
   title: 'Rambutan',
   thumbnail:
     'https://cdn.pixabay.com/photo/2020/05/25/07/52/fruit-5217360_960_720.jpg?w=1920&q=20',
-  information: ['Fake Litchi'],
+  information: ['Achtung Fake Litchi, trotzdem ein Superfrucht! Dank des Wassers, Proteine und Kohlenhydrate liefert Rambutan einen natürlichen Energieschub, weswegen die Frucht besonders unter Sportlern wertgeschätzt wird. Dank des Eisen hilft die Rambutan auch Sauerstoff von der Lunge zum Gewebe zu transportieren. '],
   nutrition: {
     calories: '71 kcal',
     carbs: '14.6 g',
@@ -721,7 +719,7 @@ const SWEETPOTATO: FVIClass = {
   title: 'Süsskartoffel',
   thumbnail:
     'https://cdn.pixabay.com/photo/2018/07/24/13/01/vegetable-3559112_960_720.jpg?w=1920&q=20',
-  information: ['Info'],
+  information: ['Die Süßkartoffel hat mit der „normalen“ Kartoffel nicht viel gemein. Die Kartoffel ist ein Nachtschattengewächs. Die Süßkartoffel ein sogenanntes Windengewächs. Die Süßkartoffel darf roh verzehrt werden, aber die Kartoffel nicht. Von der Süßkartoffel darf sogar das Blattgrün mitgegessen werden.'],
   nutrition: {
     calories: '86 kcal',
     carbs: '20 g',
@@ -735,7 +733,7 @@ const TOMATOES: FVIClass = {
   title: 'Tomaten',
   thumbnail:
     'https://images.unsplash.com/photo-1610216028956-98c3fd5a2a52?w=1920&q=20',
-  information: ['Info'],
+  information: ['Niemand liebt die Tomate mehr als die Italiener. Deshalb haben sie auch einen ganz besonderen Namen für sie: Pomodoro – was übersetzt Goldapfel heißt.'],
   nutrition: {
     calories: '18 kcal',
     carbs: '2.6 g',
@@ -749,7 +747,7 @@ const WATERMELON: FVIClass = {
   title: 'Wassermelone',
   thumbnail:
     'https://images.unsplash.com/photo-1610216028956-98c3fd5a2a52?w=1920&q=20',
-  information: ['Info'],
+  information: ['Es wurde berichtet, dass die schwerste Wassermelone 159 kg wiegt, aber die meisten Sorten produzieren Wassermelonen von ungefähr 6 bis 12 kg (13-26 Pfund)'],
   nutrition: {
     calories: '39 kcal',
     carbs: '8.3 g',
