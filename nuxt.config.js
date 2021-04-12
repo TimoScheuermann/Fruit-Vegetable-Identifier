@@ -60,9 +60,5 @@ export default {
       background_color: '#1f2024',
       theme_color: '#25ca49'
     }
-  },
-  server: {
-    port: 8080,
-    host: '192.168.2.176'
   }
 }

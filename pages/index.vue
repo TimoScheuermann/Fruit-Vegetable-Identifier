@@ -2,7 +2,6 @@
   <div class="fruit-vegetable-identifier">
     <transition name="slide-fullscreen" mode="in-out">
       <Result v-if="result" />
-      <!-- <Predicting v-else-if="src" /> -->
       <Home v-else @fileChanged="fileChanged" />
     </transition>
   </div>
@@ -29,10 +28,6 @@ export default class Index extends Vue {
   }
 
   get result(): Prediction | null {
-    return {
-      class: 0,
-      prop: 1
-    }
     return this.$store.getters.result
   }
 
