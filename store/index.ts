@@ -33,7 +33,11 @@ export const getters = {
    * @param state
    */
   result(state: any): Prediction | null {
-    return state.result
+    return {
+      class: 0,
+      prop: 1
+    }
+    // return state.result
   }
 }
 

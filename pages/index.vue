@@ -29,6 +29,10 @@ export default class Index extends Vue {
   }
 
   get result(): Prediction | null {
+    return {
+      class: 0,
+      prop: 1
+    }
     return this.$store.getters.result
   }
 

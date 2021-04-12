@@ -10,9 +10,9 @@
       </div>
       <div center content max-width>
         <div class="head-wrapper">
-          <div class="input-image">
+          <!-- <div class="input-image">
             <img :src="$store.getters.src" alt="" />
-          </div>
+          </div> -->
           <div class="result">
             <div class="title">{{ prediction.title }}</div>
             <div class="perc">{{ perc }} %</div>
