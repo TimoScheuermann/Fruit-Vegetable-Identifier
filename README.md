@@ -1,5 +1,7 @@
 # Fruit Vegetable Identifier
 
+Google Colab Notebook: 
+
 ## Build Setup
 
 ```bash
