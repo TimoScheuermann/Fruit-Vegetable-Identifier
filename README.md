@@ -1,6 +1,6 @@
 # Fruit Vegetable Identifier
 
-Google Colab Notebook: 
+Google Colab Notebook: https://colab.research.google.com/drive/187-hBGvWVqhilUjR_xYt7G9a7LJfTkOd?usp=sharing
 
 ## Build Setup
 
